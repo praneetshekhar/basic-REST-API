@@ -1,0 +1,16 @@
+To get the app up and running, there are a few prerequisites
+First, set up a python virtual environment using
+	python -m venv [name_venv]
+Next activate the environment we just created,
+	source [name_venv] [name_venv]/bin/activate
+Next we need to install the dependencies required for the app to function,
+which is listed in the requirements.txt file. 
+Install them using pip3
+
+These next steps are the most crucial and need to be done each time in each new terminal shell.
+We need to set up the environment variables for Flask to be able to identify the app
+
+	export FLASK_APP=app.py
+	export FLASK_ENV=development
+
+That's it. We're all set!
